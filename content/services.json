@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title_ar": "تجهيز ملف الإقامة",
+      "text_ar": "نحدد نوع الإقامة المناسب لك، نجمع الأوراق ونرتبها حسب المطلوب.",
+      "title_tr": "İkamet dosyası hazırlama",
+      "text_tr": "Size uygun ikamet türünü belirler, belgeleri toplar ve istenen düzende hazırlarız."
+    },
+    {
+      "title_ar": "e-ikamet وحجز الموعد",
+      "text_ar": "نعبّئ طلبك على نظام e-ikamet ونحجز موعدك في إدارة الهجرة، ونجهزك ليوم الموعد.",
+      "title_tr": "e-İkamet ve randevu",
+      "text_tr": "e-İkamet başvurunuzu doldurur, Göç İdaresi randevunuzu alır ve sizi randevu gününe hazırlarız."
+    },
+    {
+      "title_ar": "التأمين الصحي",
+      "text_ar": "تأمين صحي مقبول لطلبات الإقامة، حسب عمرك ومدة الإقامة.",
+      "title_tr": "Sağlık sigortası",
+      "text_tr": "Yaşınıza ve ikamet süresine göre başvuruda kabul edilen sağlık sigortası."
+    },
+    {
+      "title_ar": "ترجمة محلّفة وتصديق",
+      "text_ar": "ترجمة الجوازات وشهادات الميلاد والزواج والشهادات الدراسية، وتصديقها عند النوتر.",
+      "title_tr": "Yeminli tercüme ve noter onayı",
+      "text_tr": "Pasaport, doğum ve evlilik belgeleri, diplomalar: tercüme ve noter onayı."
+    },
+    {
+      "title_ar": "عقد إيجار وإثبات سكن",
+      "text_ar": "نساعدك في تجهيز عقد الإيجار المصدّق أو إثبات العنوان المطلوب للطلب.",
+      "title_tr": "Kira sözleşmesi ve adres belgesi",
+      "text_tr": "Başvuru için gereken noter onaylı kira sözleşmesi veya adres belgesinin hazırlanması."
+    },
+    {
+      "title_ar": "تجديد وتحويل الإقامة",
+      "text_ar": "تجديد إقامتك في الوقت الصحيح، أو تحويلها من نوع لآخر عند تغيّر وضعك.",
+      "title_tr": "Uzatma ve tür değişikliği",
+      "text_tr": "İkametinizi zamanında uzatır, durumunuz değişirse başka bir türe geçişinizi hazırlarız."
+    }
+  ]
+}

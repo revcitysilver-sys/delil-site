@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "q_ar": "هل تضمنون قبول الإقامة؟",
+      "a_ar": "لا أحد يستطيع ضمان القبول، فالقرار لإدارة الهجرة وحدها. ما نضمنه هو ملف كامل ومرتب يقلّل أسباب الرفض.",
+      "q_tr": "Onay garantisi veriyor musunuz?",
+      "a_tr": "Hayır; karar yalnızca Göç İdaresine aittir. Biz ret riskini azaltan eksiksiz ve düzenli bir dosya hazırlarız."
+    },
+    {
+      "q_ar": "كم تأخذ النتيجة؟",
+      "a_ar": "تُعلن نتيجة الطلب عادةً خلال مدة أقصاها 90 يوماً، ويصلك الكرت على عنوانك عبر بريد PTT.",
+      "q_tr": "Sonuç ne kadar sürer?",
+      "a_tr": "Başvurular genellikle en geç 90 gün içinde sonuçlanır; kartınız PTT ile adresinize gönderilir."
+    },
+    {
+      "q_ar": "هل يجب أن أحضر بنفسي؟",
+      "a_ar": "في الغالب نعم، يحضر صاحب الطلب يوم الموعد لتوقيع الاستمارة وتسليم الملف. نحن نجهز كل شيء قبلها.",
+      "q_tr": "Randevuya bizzat gitmem gerekir mi?",
+      "a_tr": "Genellikle evet; başvuru sahibi randevu günü formu imzalayıp dosyayı teslim eder. Öncesinde her şeyi biz hazırlarız."
+    },
+    {
+      "q_ar": "متى أجدد إقامتي؟",
+      "a_ar": "قدّم طلب التجديد خلال الـ60 يوماً الأخيرة قبل انتهاء إقامتك، وقبل انتهائها حتماً. تواصل معنا مبكراً.",
+      "q_tr": "İkametimi ne zaman uzatmalıyım?",
+      "a_tr": "Uzatma başvurusunu, ikametinizin bitiminden önceki son 60 gün içinde ve mutlaka süre dolmadan yapın."
+    },
+    {
+      "q_ar": "هل تخدمون خارج إسطنبول؟",
+      "a_ar": "مكتبنا في إسطنبول، ويمكننا تجهيز كثير من الأوراق والترجمات عن بُعد. اسألنا عن مدينتك.",
+      "q_tr": "İstanbul dışına hizmet veriyor musunuz?",
+      "a_tr": "Ofisimiz İstanbul'da; birçok belge ve tercümeyi uzaktan hazırlayabiliriz. Şehrinizi sorun."
+    }
+  ]
+}
