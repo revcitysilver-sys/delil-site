@@ -1,14 +1,14 @@
 # لوحة تحكم موقع دليل — Decap CMS
 backend:
   name: github
-  repo: GITHUB_USER/delil-site   # يُستبدل باسم حسابك على GitHub
+  repo: revcitysilver-sys/delil-site
   branch: main
   commit_messages:
     update: "تعديل {{slug}} من لوحة التحكم"
 
 locale: ar
-site_url: https://delil.netlify.app
-display_url: https://delil.netlify.app
+site_url: https://delil-site.netlify.app
+display_url: https://delil-site.netlify.app
 media_folder: images/uploads
 public_folder: /images/uploads
 
