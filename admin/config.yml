@@ -1,0 +1,61 @@
+# لوحة تحكم موقع دليل — Decap CMS
+backend:
+  name: github
+  repo: GITHUB_USER/delil-site   # يُستبدل باسم حسابك على GitHub
+  branch: main
+  commit_messages:
+    update: "تعديل {{slug}} من لوحة التحكم"
+
+locale: ar
+site_url: https://delil.netlify.app
+display_url: https://delil.netlify.app
+media_folder: images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: site
+    label: "محتوى الموقع"
+    editor:
+      preview: false
+    files:
+      - name: settings
+        label: "الإعدادات العامة (واتساب، عنوان، إعلان)"
+        file: content/settings.json
+        fields:
+          - { name: whatsapp, label: "رقم الواتساب (أرقام فقط، مثل 905xxxxxxxxx)", widget: string, required: false }
+          - { name: address_ar, label: "عنوان المكتب — عربي", widget: string, required: false }
+          - { name: address_tr, label: "عنوان المكتب — تركي", widget: string, required: false }
+          - { name: instagram, label: "حساب إنستغرام (بدون @)", widget: string, required: false }
+          - { name: announcement_ar, label: "إعلان أعلى الموقع — عربي (اتركه فارغاً لإخفائه)", widget: string, required: false }
+          - { name: announcement_tr, label: "إعلان أعلى الموقع — تركي", widget: string, required: false }
+          - { name: cf_analytics_token, label: "رمز إحصائيات Cloudflare (Web Analytics token)", widget: string, required: false }
+
+      - name: services
+        label: "الخدمات"
+        file: content/services.json
+        fields:
+          - name: items
+            label: "قائمة الخدمات"
+            label_singular: "خدمة"
+            widget: list
+            summary: "{{fields.title_ar}}"
+            fields:
+              - { name: title_ar, label: "العنوان — عربي", widget: string }
+              - { name: text_ar, label: "الوصف — عربي", widget: text }
+              - { name: title_tr, label: "العنوان — تركي", widget: string }
+              - { name: text_tr, label: "الوصف — تركي", widget: text }
+
+      - name: faq
+        label: "الأسئلة الشائعة"
+        file: content/faq.json
+        fields:
+          - name: items
+            label: "الأسئلة"
+            label_singular: "سؤال"
+            widget: list
+            summary: "{{fields.q_ar}}"
+            fields:
+              - { name: q_ar, label: "السؤال — عربي", widget: string }
+              - { name: a_ar, label: "الجواب — عربي", widget: text }
+              - { name: q_tr, label: "السؤال — تركي", widget: string }
+              - { name: a_tr, label: "الجواب — تركي", widget: text }
