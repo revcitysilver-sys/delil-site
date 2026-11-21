@@ -246,7 +246,7 @@ a{color:#0B4F4A}a:hover{color:#073532}
   function applySettings(s){
     var wa = String(s.whatsapp || "").replace(/[^0-9]/g, "");
     var ig = s.instagram || "delil.tr";
-    document.querySelectorAll('a[href*="wa.me/"]').forEach(function(a){ a.href = wa ? "https://wa.me/" + wa : "https://instagram.com/" + ig; });
+    document.querySelectorAll('a[href*="wa.me/"], a[data-wa]').forEach(function(a){ a.setAttribute("data-wa", "1"); a.href = wa ? "https://wa.me/" + wa : "https://instagram.com/" + ig; });
     document.querySelectorAll("[data-set=address]").forEach(function(e){ var v = s["address_" + lang]; if (v) e.textContent = v; });
     document.querySelectorAll("[data-set=instagram]").forEach(function(e){ e.textContent = "@" + ig; e.href = "https://instagram.com/" + ig; });
     var an = document.getElementById("announce"), msg = s["announcement_" + lang];
